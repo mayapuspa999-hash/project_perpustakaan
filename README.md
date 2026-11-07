@@ -48,7 +48,7 @@ Tugas individu mata kuliah Pemrograman Web.
 
 **Akun bawaan:** username `admin`, password `admin123`.
 
-> Folder `uploads/` harus ada dan bisa ditulis. Isinya (file sampul hasil upload) tidak ikut di repo, hanya `.gitkeep` dan `.htaccess`.
+> Folder `uploads/` harus ada dan bisa ditulis. File sampul contoh di dalamnya sesuai dengan nama file pada kolom `sampul` di data awal, jadi tampil langsung setelah database diimpor. Sampul buku yang kamu upload sendiri juga disimpan di folder ini.
 
 ## Struktur Project
 

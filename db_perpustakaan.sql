@@ -21,12 +21,16 @@ SET time_zone = "+00:00";
 -- Database: `db_perpustakaan`
 --
 
+CREATE DATABASE IF NOT EXISTS `db_perpustakaan` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `db_perpustakaan`;
+
 -- --------------------------------------------------------
 
 --
 -- Table structure for table `buku`
 --
 
+DROP TABLE IF EXISTS `buku`;
 CREATE TABLE `buku` (
   `id` int(10) UNSIGNED NOT NULL,
   `judul` varchar(150) NOT NULL,
@@ -59,6 +63,7 @@ INSERT INTO `buku` (`id`, `judul`, `kategori`, `penulis`, `tahun_terbit`, `stok`
 -- Table structure for table `users`
 --
 
+DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` int(10) UNSIGNED NOT NULL,
   `username` varchar(50) NOT NULL,
