@@ -42,7 +42,7 @@ $ringkas=mysqli_fetch_assoc(mysqli_query($conn,$query));
 $dipinjam=$ringkas['total']-$ringkas['tersedia'];
 
 //ambil semua data buku
-$query="SELECT * FROM buku ORDER BY id DESC";
+$query="SELECT * FROM buku ORDER BY id ASC";
 $data=mysqli_query($conn,$query);
 ?>
 <!DOCTYPE html>
